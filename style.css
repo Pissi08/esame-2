@@ -1,0 +1,275 @@
+body {
+background-color : C1FF8F;
+}
+.titolo {
+text-align: center;
+font-size: 128pt;
+font-family: 'Inter', sans-serif;
+margin: 0px;
+margin-top: 30px;
+}
+.sottotitolo{
+text-align: center;
+font-family: 'Inter', sans-serif;
+font-size: 48pt;
+margin-top: 20px
+}
+.testosinistra{
+text-align: left;
+font-family: 'Inter', sans-serif;
+font-size: 20pt;
+background-color: 55C100;
+width:auto;
+height: 86px;
+}
+ul.menu {
+display: flex;
+justify-content: flex-end;
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+ul.menu li {
+margin: 0 10px;
+}
+ul.menu li:first-child {
+margin-left: auto;
+}
+ul.menu li a {
+text-decoration: none;
+color: #000;
+}
+.menu{
+text-align: right;
+}
+
+.immaginisiti{
+    text-align: center;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+.riga1{
+    display: grid; 
+    grid-template-columns: repeat(8, 1fr); 
+    grid-column-gap: 15px;
+    grid-row-gap: 15px; 
+}
+
+
+.immaginecamilo {
+    text-align: right;
+}
+ .foto4camillo{
+    margin-left: 10%;
+ }
+
+.info{
+    text-align: center;
+}
+.tuttiavvisi {
+    margin: 10;
+    padding: 0;
+    text-align: center;
+}
+.menu1 {
+    text-align: left;
+    margin-bottom: auto;
+}
+.menu2{
+    text-align: center;
+    margin-bottom: auto;
+}
+.menu3{
+    text-align: right;
+    margin-bottom: auto;
+}
+.immaginifooter{
+    text-align: center;
+
+}
+.titolotim{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 60pt;
+    margin-top: 20px
+}
+.titoloxoana{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 60pt;
+    margin-top: 20px
+}
+.titolokarlotta{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 60pt;
+    margin-top: 20px
+}
+.titololabocas{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 60pt;
+    margin-top: 20px
+}
+.titololin{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 60pt;
+    margin-top: 20px
+}
+.immagine1tim{
+    text-align: right;
+    margin-right: 10%;
+}
+.immagine2tim{
+    text-align: center;
+}
+.immagine3tim{
+    text-align: center;
+}
+.immagine1labocas{
+    text-align: right;  
+    margin-right: 10%;
+}
+.immagini2labocas{
+    text-align: center; 
+}
+.testolabocas{ 
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: 1fr; 
+        grid-column-gap: 0px;
+        grid-row-gap: 0px; 
+        margin-left: 10%;
+        font-size: 20pt;
+}
+.testotim{
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: 1fr; 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    margin-left: 10%;
+    font-size: 20pt; 
+}
+.titolocamilo{
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: 1fr; 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    margin-left: 30%;
+    font-size: 50pt; 
+}
+.titolo2camilo{
+    text-align: right;
+    font-family: 'Inter', sans-serif;
+    font-size: 80pt;
+    margin-top: 30px
+}
+.testocamilo{
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: 1fr; 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    margin-left: 10%;
+    font-size: 20pt; 
+}
+.tetsokarlotta{
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: 1fr; 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    margin-left: 10%;
+    font-size: 20pt; 
+}
+.immagine1karlotta{
+    text-align: right;
+    margin-right:10% ;
+}
+.testolin{
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: 1fr; 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    margin-left: 10%;
+    font-size: 20pt; 
+}
+.immagine1lin{
+    text-align: right;
+    margin-right: 10%;
+}
+.immagine2lin{
+    text-align: center;
+}
+.testoxoana{
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: 1fr; 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    margin-left: 10%;
+    font-size: 20pt;  
+}
+.immagine1xoana{
+    text-align: right;
+    margin-right: 10%;
+}
+.immagine2xoana{
+    text-align: center;
+}
+
+/*
+
+.header1{
+    display: flex;
+    align-items: center;
+}
+
+.header1{
+    background-color: #55C100;
+}
+
+.barramenu li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 15px;
+
+}
+
+.marchio{
+       display: inline-block;
+}
+
+.barramenu ul li{
+    float: right;
+}
+
+.barramenu {
+    float: right;
+} */
+
+.parent1{
+    display: grid; 
+    grid-template-columns: repeat(8, 1fr); 
+    grid-column-gap: 15px;
+    grid-row-gap: 15px; 
+}
+
+
+.immaginikarlottacentro{
+    text-align: center;
+}
